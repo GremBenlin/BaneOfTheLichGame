@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Temp/BaneOfTheLichGame/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Temp/BaneOfTheLichGame/Content/ThirdPerson/Blueprints/CharacterBP.uasset",
+				"C:/Temp/BaneOfTheLichGame/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Temp/BaneOfTheLichGame/Content/Characters/enemy/model/material/LichV3.uasset",
+				"C:/Temp/BaneOfTheLichGame/Content/Characters/enemy/model/Lich.uasset",
 				"G:/unrealProjects/HorrorProject/BaneOfTheLich/Content/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset",
 				"G:/unrealProjects/HorrorProject/BaneOfTheLich/Content/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.uasset",
 				"G:/unrealProjects/HorrorProject/BaneOfTheLich/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
