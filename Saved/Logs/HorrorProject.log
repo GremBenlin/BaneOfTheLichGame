@@ -1648,3 +1648,624 @@ Script Stack (0 frames) :
 [2024.03.26-04.38.04:332][952]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Flashlight/model/FlashlightTexture_Auto2
 [2024.03.26-04.38.04:332][952]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightTexture_Auto2706CD22D4B8F61E12025F2B098B9708C.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/Autosaves/Game/Blueprints/Flashlight/model/FlashlightTexture_Auto2.uasset'
 [2024.03.26-04.38.04:332][952]LogFileHelpers: Auto-saving content packages took 0.124
+[2024.03.26-04.45.00:654][313]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-04.45.00:690][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.03.26-04.45.00:701][313]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-04.45.00:750][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-04.45.00:754][313]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-04.45.00:755][313]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP72740DD04117BB3B0B9DE8837FCBECFF.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-04.45.00:761][313]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 1.40 sec)
+[2024.03.26-04.45.00:770][313]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-04.45.00:770][313]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-04.45.43:919][982]BlueprintLog: New page: Compile CharacterBP
+[2024.03.26-04.45.43:954][982]LogBlueprint: Warning: [AssetLog] G:\unrealProjects\HorrorProject\BaneOfTheLich\Content\ThirdPerson\Blueprints\CharacterBP.uasset: [Compiler] 'Flashlight BP' does not inherit from 'Input Action' ( Cast To FlashlightBP  would always fail).
+[2024.03.26-04.45.43:998][982]LogScript: Warning: Attempted to access REINST_CharacterBP_C_0 via property Character, but REINST_CharacterBP_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_14:PersistentLevel.REINST_CharacterBP_C_0.CharacterMesh0.ABP_Manny_C_1
+	Function /Game/ThirdPerson/animation/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0E5D
+[2024.03.26-04.45.43:998][982]LogScript: Warning: Attempted to access REINST_CharacterBP_C_1 via property Character, but REINST_CharacterBP_C_1 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_12:PersistentLevel.REINST_CharacterBP_C_1.CharacterMesh0.ABP_Manny_C_1
+	Function /Game/ThirdPerson/animation/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0E5D
+[2024.03.26-04.45.43:998][982]LogScript: Warning: Attempted to access REINST_CharacterBP_C_0 via property Character, but REINST_CharacterBP_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_11:PersistentLevel.REINST_CharacterBP_C_0.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/ThirdPerson/animation/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0E5D
+[2024.03.26-04.45.44:020][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.03.26-04.45.44:094][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-04.45.44:134][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/CharacterBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/CharacterBP.uasset" SILENT=true
+[2024.03.26-04.45.44:151][982]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/CharacterBP
+[2024.03.26-04.45.44:151][982]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/CharacterBPE679A832413CE1DC09E08D9CD402BD11.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/CharacterBP.uasset'
+[2024.03.26-04.45.44:157][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1.47 sec)
+[2024.03.26-04.45.44:164][982]AssetCheck: New page: Asset Save: CharacterBP
+[2024.03.26-04.45.44:164][982]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/CharacterBP.CharacterBP
+[2024.03.26-04.48.05:094][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.03.26-04.48.05:097][905]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.027
+[2024.03.26-04.48.05:097][905]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/CharacterBP] ([2] browsable assets)...
+[2024.03.26-04.48.05:136][905]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/CharacterBP.CharacterBP]
+[2024.03.26-04.48.05:136][905]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/CharacterBP]
+[2024.03.26-04.48.05:154][905]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/CharacterBP_Auto3
+[2024.03.26-04.48.05:155][905]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/CharacterBP_Auto369D0CD6E40F9783CD75DF08FE7D40E36.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/Autosaves/Game/ThirdPerson/Blueprints/CharacterBP_Auto3.uasset'
+[2024.03.26-04.48.05:155][905]LogFileHelpers: Auto-saving content packages took 0.058
+[2024.03.26-04.48.49:600][227]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.03.26-04.48.55:942][829]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2024.03.26-04.48.55:952][829]LogContentBrowser: Creating deferred item: NewInterface
+[2024.03.26-04.48.55:965][830]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2024.03.26-04.49.10:050][312]LogContentBrowser: Attempting asset rename: NewInterface -> I_Interact
+[2024.03.26-04.49.10:054][312]LogContentBrowser: End creating deferred item NewInterface
+[2024.03.26-04.49.12:087][510]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/I_Interact.I_Interact
+[2024.03.26-04.49.12:088][510]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-04.49.12:088][510]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-04.49.54:930][ 33]LogSlate: Took 0.004530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.03.26-04.50.27:758][ 84]BlueprintLog: New page: Compile I_Interact
+[2024.03.26-04.50.27:783][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.03.26-04.50.27:790][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-04.50.27:820][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/I_Interact" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/I_Interact.uasset" SILENT=true
+[2024.03.26-04.50.27:821][ 84]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/I_Interact
+[2024.03.26-04.50.27:821][ 84]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/I_InteractCC9FF547465B1A679BA35E8EE83C5A99.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/I_Interact.uasset'
+[2024.03.26-04.50.27:829][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 1.51 sec)
+[2024.03.26-04.50.27:835][ 84]AssetCheck: New page: Asset Save: I_Interact
+[2024.03.26-04.50.27:835][ 84]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/I_Interact.I_Interact
+[2024.03.26-04.51.30:723][799]BlueprintLog: New page: Compile I_Interact
+[2024.03.26-04.51.30:744][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.03.26-04.51.30:750][799]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-04.51.30:792][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/I_Interact" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/I_Interact.uasset" SILENT=true
+[2024.03.26-04.51.30:794][799]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/I_Interact
+[2024.03.26-04.51.30:795][799]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/I_Interact676EF7394145570A57420F94665058AE.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/I_Interact.uasset'
+[2024.03.26-04.51.30:802][799]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 1.56 sec)
+[2024.03.26-04.51.30:807][799]AssetCheck: New page: Asset Save: I_Interact
+[2024.03.26-04.51.30:807][799]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/I_Interact.I_Interact
+[2024.03.26-04.52.52:303][ 31]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-04.52.52:338][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.03.26-04.52.52:413][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-04.52.52:456][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-04.52.52:460][ 31]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-04.52.52:461][ 31]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP68B4B34F481E44E1C93B3AB265E4EE10.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-04.52.52:467][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 1.61 sec)
+[2024.03.26-04.52.52:472][ 31]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-04.52.52:472][ 31]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-04.54.56:728][358]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.03.26-04.54.56:729][358]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.03.26-04.55.00:362][783]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-04.55.00:399][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.03.26-04.55.00:435][783]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-04.55.00:483][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-04.55.00:487][783]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-04.55.00:487][783]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP5A4516154299AB7C6329D797A60F219F.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-04.55.00:495][783]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 1.67 sec)
+[2024.03.26-04.55.00:500][783]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-04.55.00:500][783]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-04.55.01:821][937]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.03.26-04.56.16:527][736]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-04.56.16:530][736]LogBlueprint: Error: [AssetLog] G:\unrealProjects\HorrorProject\BaneOfTheLich\Content\Blueprints\Flashlight\FlashlightBP.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2024.03.26-04.56.16:564][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.03.26-04.56.16:602][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-04.56.16:645][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-04.56.16:649][736]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-04.56.16:649][736]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBPCF63E1AA4F81842537469FA167C02F11.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-04.56.16:655][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 1.72 sec)
+[2024.03.26-04.56.16:662][736]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-04.56.16:662][736]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-04.56.25:687][723]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.03.26-04.56.25:701][723]LogContentBrowser: Creating deferred item: NewFolder
+[2024.03.26-04.56.25:715][724]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.03.26-04.56.27:587][928]LogContentBrowser: Attempting asset rename: NewFolder -> UI
+[2024.03.26-04.56.27:587][928]LogContentBrowser: End creating deferred item NewFolder
+[2024.03.26-04.56.36:706][657]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.03.26-04.56.36:717][657]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.03.26-04.56.36:726][657]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.03.26-04.56.36:759][659]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.03.26-04.56.46:301][719]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> W_Interact
+[2024.03.26-04.56.46:307][719]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.03.26-04.56.47:823][884]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPerson/UI/W_Interact.W_Interact
+[2024.03.26-04.56.47:824][884]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-04.56.47:824][884]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-04.56.47:830][884]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-04.56.47:830][884]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-04.56.47:837][884]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.03.26-04.56.48:097][884]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.03.26-04.56.48:098][884]LogSlate: Took 0.000907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.03.26-04.58.04:170][ 41]LogSlate: Took 0.012899 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.03.26-04.58.11:250][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.03.26-04.58.11:252][410]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.031
+[2024.03.26-04.58.11:253][410]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/UI/W_Interact] ([2] browsable assets)...
+[2024.03.26-04.58.11:255][410]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ThirdPerson/UI/W_Interact.W_Interact]
+[2024.03.26-04.58.11:255][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/UI/W_Interact]
+[2024.03.26-04.58.11:257][410]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/UI/W_Interact_Auto4
+[2024.03.26-04.58.11:257][410]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/W_Interact_Auto49CA923CA4F0003C2254108B5C84B1F6E.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/Autosaves/Game/ThirdPerson/UI/W_Interact_Auto4.uasset'
+[2024.03.26-04.58.11:258][410]LogFileHelpers: Auto-saving content packages took 0.006
+[2024.03.26-05.01.28:613][397]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-05.02.33:963][728]BlueprintLog: New page: Compile W_Interact
+[2024.03.26-05.02.33:997][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.03.26-05.02.34:005][728]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.02.34:040][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/UI/W_Interact" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/UI/W_Interact.uasset" SILENT=true
+[2024.03.26-05.02.34:043][728]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/W_Interact
+[2024.03.26-05.02.34:043][728]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/W_InteractFAEB56AD4000A3C40B950980B68E947F.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/UI/W_Interact.uasset'
+[2024.03.26-05.02.34:052][728]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.77 sec)
+[2024.03.26-05.02.34:057][728]AssetCheck: New page: Asset Save: W_Interact
+[2024.03.26-05.02.34:057][728]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/W_Interact.W_Interact
+[2024.03.26-05.02.45:389][468]BlueprintLog: New page: Compile W_Interact
+[2024.03.26-05.02.45:420][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.03.26-05.02.45:429][468]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.02.45:461][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/UI/W_Interact" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/UI/W_Interact.uasset" SILENT=true
+[2024.03.26-05.02.45:464][468]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/W_Interact
+[2024.03.26-05.02.45:464][468]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/W_Interact490A2C1844E95739AC80018B69C3BB74.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/UI/W_Interact.uasset'
+[2024.03.26-05.02.45:473][468]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 1.81 sec)
+[2024.03.26-05.02.45:477][468]AssetCheck: New page: Asset Save: W_Interact
+[2024.03.26-05.02.45:477][468]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/W_Interact.W_Interact
+[2024.03.26-05.05.26:410][761]BlueprintLog: New page: Compile W_Interact
+[2024.03.26-05.05.26:443][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.03.26-05.05.26:482][761]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.05.26:512][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/UI/W_Interact" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/UI/W_Interact.uasset" SILENT=true
+[2024.03.26-05.05.26:515][761]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/W_Interact
+[2024.03.26-05.05.26:515][761]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/W_InteractC2E29BAC4706827E285AEE93D9972FA5.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/UI/W_Interact.uasset'
+[2024.03.26-05.05.26:522][761]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 1.85 sec)
+[2024.03.26-05.05.26:541][761]AssetCheck: New page: Asset Save: W_Interact
+[2024.03.26-05.05.26:541][761]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/W_Interact.W_Interact
+[2024.03.26-05.08.29:184][883]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-05.08.29:230][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.03.26-05.08.29:268][883]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.08.29:315][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-05.08.29:320][883]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-05.08.29:320][883]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP2DE746124A6C2D723BF5B28E6B2521D6.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-05.08.29:326][883]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 1.91 sec)
+[2024.03.26-05.08.29:332][883]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-05.08.29:332][883]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-05.08.52:040][938]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-05.08.52:081][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.03.26-05.08.52:123][938]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.08.52:174][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-05.08.52:179][938]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-05.08.52:179][938]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP8DBB0BE04DFFA192E785C0A0D438CED5.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-05.08.52:186][938]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 1.97 sec)
+[2024.03.26-05.08.52:190][938]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-05.08.52:190][938]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-05.09.47:345][170]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-05.09.47:383][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.03.26-05.09.47:424][170]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.09.47:467][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-05.09.47:471][170]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-05.09.47:471][170]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP881B886E4CDC3703B5A7399B465B0904.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-05.09.47:478][170]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 2.03 sec)
+[2024.03.26-05.09.47:482][170]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-05.09.47:482][170]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-05.10.38:735][516]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-05.10.38:775][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.03.26-05.10.38:818][516]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.10.38:863][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-05.10.38:868][516]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-05.10.38:869][516]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP89254A794ADBE83C097A84A558A424D2.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-05.10.38:874][516]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 2.08 sec)
+[2024.03.26-05.10.38:887][516]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-05.10.38:887][516]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-05.11.59:931][913]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-05.11.59:971][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.03.26-05.12.00:013][913]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.12.00:055][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-05.12.00:061][913]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-05.12.00:061][913]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP19E284BC435A1A49D0CD4897FC106B61.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-05.12.00:068][913]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 2.14 sec)
+[2024.03.26-05.12.00:076][913]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-05.12.00:076][913]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-05.13.37:574][752]LogDerivedDataCache: C:/Users/stott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:23.147 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 12204 files in 14385 folders with total size 1503 MiB.
+[2024.03.26-05.14.22:856][375]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-05.14.22:896][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.03.26-05.14.22:942][375]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.14.22:987][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-05.14.22:993][375]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-05.14.22:993][375]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP7E927A02438100985A9178A7A20D73B2.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-05.14.23:000][375]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 2.20 sec)
+[2024.03.26-05.14.23:004][375]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-05.14.23:004][375]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-05.15.13:861][994]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-05.15.13:905][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.03.26-05.15.13:953][994]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.15.14:002][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-05.15.14:009][994]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-05.15.14:009][994]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP5D4EFB834D8A5DA1ED94A18D46403633.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-05.15.14:018][994]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 2.26 sec)
+[2024.03.26-05.15.14:023][994]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-05.15.14:023][994]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-05.17.57:786][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.03.26-05.17.57:788][126]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.021
+[2024.03.26-05.17.57:788][126]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Flashlight/FlashlightBP] ([2] browsable assets)...
+[2024.03.26-05.17.57:803][126]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP]
+[2024.03.26-05.17.57:803][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Flashlight/FlashlightBP]
+[2024.03.26-05.17.57:810][126]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Flashlight/FlashlightBP_Auto5
+[2024.03.26-05.17.57:810][126]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP_Auto58F4DA22744ACDD851FA6858B7BBE29EC.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/Autosaves/Game/Blueprints/Flashlight/FlashlightBP_Auto5.uasset'
+[2024.03.26-05.17.57:811][126]LogFileHelpers: Auto-saving content packages took 0.023
+[2024.03.26-05.18.57:333][990]LogEditorTransaction: Undo Move Node
+[2024.03.26-05.21.16:042][101]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-05.21.16:086][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.26-05.21.16:124][101]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.21.16:170][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-05.21.16:176][101]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-05.21.16:177][101]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP7198C9F3415F1D0EE65B6E98230A35DE.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-05.21.16:184][101]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 2.32 sec)
+[2024.03.26-05.21.16:190][101]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-05.21.16:190][101]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-05.23.24:663][958]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-05.23.24:704][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.26-05.23.24:764][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.23.24:810][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-05.23.24:818][958]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-05.23.24:818][958]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP2DE55FB94BB75695427F4986B57ED070.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-05.23.24:825][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 2.38 sec)
+[2024.03.26-05.23.24:831][958]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-05.23.24:831][958]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-05.24.21:561][187]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-05.24.21:604][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.03.26-05.24.21:663][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.24.21:723][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-05.24.21:731][187]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-05.24.21:731][187]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBPC8B814DC4706EAAECA8391808D2C1938.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-05.24.21:738][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 2.46 sec)
+[2024.03.26-05.24.21:742][187]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-05.24.21:743][187]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-05.28.32:674][832]BlueprintLog: New page: Compile CharacterBP
+[2024.03.26-05.28.32:799][832]LogScript: Warning: Attempted to access REINST_CharacterBP_C_0 via property Character, but REINST_CharacterBP_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_11:PersistentLevel.REINST_CharacterBP_C_0.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/ThirdPerson/animation/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0E5D
+[2024.03.26-05.28.32:800][832]LogScript: Warning: Attempted to access REINST_CharacterBP_C_1 via property Character, but REINST_CharacterBP_C_1 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_12:PersistentLevel.REINST_CharacterBP_C_1.CharacterMesh0.ABP_Manny_C_1
+	Function /Game/ThirdPerson/animation/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0E5D
+[2024.03.26-05.28.32:800][832]LogScript: Warning: Attempted to access REINST_CharacterBP_C_0 via property Character, but REINST_CharacterBP_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_14:PersistentLevel.REINST_CharacterBP_C_0.CharacterMesh0.ABP_Manny_C_1
+	Function /Game/ThirdPerson/animation/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0E5D
+[2024.03.26-05.28.32:825][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.03.26-05.28.32:944][832]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.28.33:003][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/CharacterBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/CharacterBP.uasset" SILENT=true
+[2024.03.26-05.28.33:022][832]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/CharacterBP
+[2024.03.26-05.28.33:023][832]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/CharacterBP41BCFD53495D7263C335E4B4530E7471.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/CharacterBP.uasset'
+[2024.03.26-05.28.33:029][832]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 2.54 sec)
+[2024.03.26-05.28.33:034][832]AssetCheck: New page: Asset Save: CharacterBP
+[2024.03.26-05.28.33:034][832]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/CharacterBP.CharacterBP
+[2024.03.26-05.29.20:696][943]BlueprintLog: New page: Compile CharacterBP
+[2024.03.26-05.29.20:782][943]LogScript: Warning: Attempted to access REINST_CharacterBP_C_0 via property Character, but REINST_CharacterBP_C_0 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_11:PersistentLevel.REINST_CharacterBP_C_0.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/ThirdPerson/animation/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0E5D
+[2024.03.26-05.29.20:782][943]LogScript: Warning: Attempted to access REINST_CharacterBP_C_1 via property Character, but REINST_CharacterBP_C_1 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_14:PersistentLevel.REINST_CharacterBP_C_1.CharacterMesh0.ABP_Manny_C_1
+	Function /Game/ThirdPerson/animation/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0E5D
+[2024.03.26-05.29.20:782][943]LogScript: Warning: Attempted to access REINST_CharacterBP_C_2 via property Character, but REINST_CharacterBP_C_2 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_12:PersistentLevel.REINST_CharacterBP_C_2.CharacterMesh0.ABP_Manny_C_1
+	Function /Game/ThirdPerson/animation/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0E5D
+[2024.03.26-05.29.20:783][943]LogScript: Warning: Attempted to access CharacterBP_C_2 via property Character, but CharacterBP_C_2 is not valid (pending kill or garbage)
+	ABP_Manny_C /Engine/Transient.World_11:PersistentLevel.CharacterBP_C_2.CharacterMesh0.ABP_Manny_C_1
+	Function /Game/ThirdPerson/animation/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0E5D
+[2024.03.26-05.29.20:807][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.26-05.29.20:929][943]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.29.20:972][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/CharacterBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/CharacterBP.uasset" SILENT=true
+[2024.03.26-05.29.20:991][943]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/CharacterBP
+[2024.03.26-05.29.20:991][943]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/CharacterBP1FDD7674460214996D7F4BA3663DB138.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/CharacterBP.uasset'
+[2024.03.26-05.29.20:999][943]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 2.61 sec)
+[2024.03.26-05.29.21:003][943]AssetCheck: New page: Asset Save: CharacterBP
+[2024.03.26-05.29.21:003][943]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/CharacterBP.CharacterBP
+[2024.03.26-05.30.13:082][465]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.03.26-05.30.13:084][465]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.023
+[2024.03.26-05.30.13:084][465]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Flashlight/model/FlashlightTexture] ([1] browsable assets)...
+[2024.03.26-05.30.13:084][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Flashlight/model/FlashlightTexture]
+[2024.03.26-05.30.13:088][465]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Flashlight/model/FlashlightTexture_Auto6
+[2024.03.26-05.30.13:088][465]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightTexture_Auto6A79DD6754FD9D3E3CF3868A49719D9B2.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/Autosaves/Game/Blueprints/Flashlight/model/FlashlightTexture_Auto6.uasset'
+[2024.03.26-05.30.13:088][465]LogFileHelpers: Auto-saving content packages took 0.004
+[2024.03.26-05.30.46:253][717]BlueprintLog: New page: Compile FlashlightBP
+[2024.03.26-05.30.46:293][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.26-05.30.46:407][717]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.30.46:436][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/FlashlightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset" SILENT=true
+[2024.03.26-05.30.46:442][717]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/FlashlightBP
+[2024.03.26-05.30.46:442][717]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightBP9AFF6BA546BCB525879D82B17D41FC79.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/FlashlightBP.uasset'
+[2024.03.26-05.30.46:448][717]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 2.65 sec)
+[2024.03.26-05.30.46:454][717]AssetCheck: New page: Asset Save: FlashlightBP
+[2024.03.26-05.30.46:454][717]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/FlashlightBP.FlashlightBP
+[2024.03.26-05.31.13:454][399]LogContentBrowser: Attempting asset rename: FlashlightBP -> InteractBP
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.InteractBP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.SKEL_InteractBP_C' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.InteractBP_C' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.InteractBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.InteractBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.InteractBP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.InteractBP:FlashLightEquip.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.InteractBP:GetText.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.InteractBP_C:GetText' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.InteractBP_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.SKEL_InteractBP_C:GetText' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.SKEL_InteractBP_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.SKEL_InteractBP_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.InteractBP:GetInteractText.K2Node_FunctionResult_0' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:513][399]LogMetaData: Removing '/Game/Blueprints/Flashlight/InteractBP.InteractBP:GetInteractText.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Flashlight/FlashlightBP.PackageMetaData'
+[2024.03.26-05.31.13:516][399]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.31.13:541][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Flashlight/InteractBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/InteractBP.uasset" SILENT=true
+[2024.03.26-05.31.13:548][399]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/InteractBP
+[2024.03.26-05.31.13:548][399]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/InteractBP69100977414A41F5CC6436A19D4C658A.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/InteractBP.uasset'
+[2024.03.26-05.31.13:558][399]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 2.70 sec)
+[2024.03.26-05.31.13:595][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.03.26-05.31.13:618][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.03.26-05.31.13:636][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.03.26-05.31.13:642][399]AssetCheck: New page: Asset Save: InteractBP
+[2024.03.26-05.31.13:642][399]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Flashlight/InteractBP.InteractBP
+[2024.03.26-05.31.20:183][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.InteractBP_C' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.InteractBP_C:GetText' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.InteractBP_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.SKEL_InteractBP_C' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.SKEL_InteractBP_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.SKEL_InteractBP_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.SKEL_InteractBP_C:GetText' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.InteractBP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.InteractBP:FlashLightEquip.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.InteractBP:GetText.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.InteractBP:GetInteractText.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/InteractBP.InteractBP:GetInteractText.K2Node_FunctionResult_0' ref from Metadata '/Game/Blueprints/Flashlight/InteractBP.PackageMetaData'
+[2024.03.26-05.31.20:184][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.31.20:211][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/InteractBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/InteractBP.uasset" SILENT=true
+[2024.03.26-05.31.20:218][ 33]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/InteractBP
+[2024.03.26-05.31.20:218][ 33]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/InteractBP88FAD3274AAF6671CA32E0A81F60BD28.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/InteractBP.uasset'
+[2024.03.26-05.31.20:231][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 2.74 sec)
+[2024.03.26-05.31.20:257][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.03.26-05.31.20:277][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.03.26-05.31.20:295][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.26-05.31.20:316][ 33]AssetCheck: New page: Asset Save: InteractBP
+[2024.03.26-05.31.20:316][ 33]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/InteractBP.InteractBP
+[2024.03.26-05.31.33:118][250]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2024.03.26-05.31.33:118][250]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2024.03.26-05.31.36:472][597]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Camera_Shake/CameraShakeRunBP.CameraShakeRunBP_C' ref from Metadata '/Game/Blueprints/Camera_Shake/CameraShakeRunBP.PackageMetaData'
+[2024.03.26-05.31.36:472][597]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Camera_Shake/CameraShakeRunBP.SKEL_CameraShakeRunBP_C' ref from Metadata '/Game/Blueprints/Camera_Shake/CameraShakeRunBP.PackageMetaData'
+[2024.03.26-05.31.36:475][597]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Camera_Shake/CameraShakeWalkBP.CameraShakeWalkBP_C' ref from Metadata '/Game/Blueprints/Camera_Shake/CameraShakeWalkBP.PackageMetaData'
+[2024.03.26-05.31.36:475][597]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Camera_Shake/CameraShakeWalkBP.SKEL_CameraShakeWalkBP_C' ref from Metadata '/Game/Blueprints/Camera_Shake/CameraShakeWalkBP.PackageMetaData'
+[2024.03.26-05.31.36:477][597]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.31.36:527][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/animation/ABP_Manny" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/animation/ABP_Manny.uasset" SILENT=true
+[2024.03.26-05.31.36:589][597]LogSavePackage: Moving output files for package: /Game/ThirdPerson/animation/ABP_Manny
+[2024.03.26-05.31.36:589][597]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/ABP_Manny35AB4F5741BD16E45DF214947C729346.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/animation/ABP_Manny.uasset'
+[2024.03.26-05.31.36:591][597]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Camera_Shake/CameraShakeRunBP
+[2024.03.26-05.31.36:591][597]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/CameraShakeRunBP073BA3134F56DC06DA6A81AD775964BE.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/Camera_Shake/CameraShakeRunBP.uasset'
+[2024.03.26-05.31.36:596][597]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Camera_Shake/CameraShakeWalkBP
+[2024.03.26-05.31.36:596][597]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/CameraShakeWalkBPAE05ED7A49F2EF66AEC3F88A04B1E9F5.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/Camera_Shake/CameraShakeWalkBP.uasset'
+[2024.03.26-05.31.36:608][597]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 2.88 sec)
+[2024.03.26-05.31.36:647][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.03.26-05.31.36:667][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.03.26-05.31.36:685][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.03.26-05.31.36:710][597]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.26-05.31.36:710][597]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Camera_Shake/CameraShakeRunBP.CameraShakeRunBP
+[2024.03.26-05.31.36:710][597]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Camera_Shake/CameraShakeWalkBP.CameraShakeWalkBP
+[2024.03.26-05.31.36:710][597]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/animation/ABP_Manny.ABP_Manny
+[2024.03.26-05.32.10:951][ 59]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.03.26-05.32.10:965][ 59]LogContentBrowser: Creating deferred item: NewFolder
+[2024.03.26-05.32.10:981][ 60]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.03.26-05.32.19:138][824]LogContentBrowser: Attempting asset rename: NewFolder -> Interactables
+[2024.03.26-05.32.19:140][824]LogContentBrowser: End creating deferred item NewFolder
+[2024.03.26-05.32.37:054][468]LogContentBrowser: Deferred new asset file creation: InteractBP_Child
+[2024.03.26-05.32.37:079][468]LogContentBrowser: Creating deferred item: InteractBP_Child
+[2024.03.26-05.32.37:113][469]LogContentBrowser: Renaming the item being created (Deferred Item: InteractBP_Child).
+[2024.03.26-05.32.49:294][609]LogContentBrowser: Attempting asset rename: InteractBP_Child -> FlashLightBP
+[2024.03.26-05.32.49:296][609]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.32.49:325][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/FlashLightBP" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/FlashLightBP.uasset" SILENT=true
+[2024.03.26-05.32.49:326][609]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/FlashLightBP
+[2024.03.26-05.32.49:326][609]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashLightBP3C063886444983A9701830945587F133.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/FlashLightBP.uasset'
+[2024.03.26-05.32.49:339][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 2.92 sec)
+[2024.03.26-05.32.49:340][609]LogContentBrowser: End creating deferred item InteractBP_Child
+[2024.03.26-05.32.49:343][609]AssetCheck: New page: Asset Save: FlashLightBP
+[2024.03.26-05.32.49:343][609]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/FlashLightBP.FlashLightBP
+[2024.03.26-05.32.52:177][873]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.FlashLightBP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPerson/Blueprints/FlashLightBP.PackageMetaData'
+[2024.03.26-05.32.52:177][873]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.SKEL_FlashLightBP_C:UserConstructionScript' ref from Metadata '/Game/ThirdPerson/Blueprints/FlashLightBP.PackageMetaData'
+[2024.03.26-05.32.52:177][873]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.SKEL_FlashLightBP_C' ref from Metadata '/Game/ThirdPerson/Blueprints/FlashLightBP.PackageMetaData'
+[2024.03.26-05.32.52:177][873]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.FlashLightBP_C' ref from Metadata '/Game/ThirdPerson/Blueprints/FlashLightBP.PackageMetaData'
+[2024.03.26-05.32.52:177][873]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.FlashLightBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPerson/Blueprints/FlashLightBP.PackageMetaData'
+[2024.03.26-05.32.52:177][873]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.FlashLightBP:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/ThirdPerson/Blueprints/FlashLightBP.PackageMetaData'
+[2024.03.26-05.32.52:177][873]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.FlashLightBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPerson/Blueprints/FlashLightBP.PackageMetaData'
+[2024.03.26-05.32.52:177][873]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.FlashLightBP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPerson/Blueprints/FlashLightBP.PackageMetaData'
+[2024.03.26-05.32.52:177][873]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.32.52:204][873]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Interactables/FlashLightBP
+[2024.03.26-05.32.52:204][873]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashLightBPA614134E414A1229D273B9B1A4AE4011.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/Interactables/FlashLightBP.uasset'
+[2024.03.26-05.32.52:217][873]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 2.96 sec)
+[2024.03.26-05.32.52:245][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.03.26-05.32.52:266][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.03.26-05.32.52:284][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.03.26-05.32.52:303][873]AssetCheck: New page: Asset Save: FlashLightBP
+[2024.03.26-05.32.52:303][873]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.FlashLightBP
+[2024.03.26-05.32.54:816][106]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.FlashLightBP
+[2024.03.26-05.32.54:816][106]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-05.32.54:817][106]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-05.32.54:911][106]LogViewport: Scene viewport resized to 1756x1002, mode Windowed.
+[2024.03.26-05.32.54:951][107]LogViewport: Scene viewport resized to 1756x988, mode Windowed.
+[2024.03.26-05.32.54:999][108]LogViewport: Scene viewport resized to 1756x984, mode Windowed.
+[2024.03.26-05.34.16:768][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.34.16:802][ 69]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Interactables/FlashLightBP
+[2024.03.26-05.34.16:802][ 69]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashLightBP7022615B4ABC4F03C40C5EBECEA5532D.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/Interactables/FlashLightBP.uasset'
+[2024.03.26-05.34.16:811][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 3.00 sec)
+[2024.03.26-05.34.16:816][ 69]AssetCheck: New page: Asset Save: FlashLightBP
+[2024.03.26-05.34.16:816][ 69]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.FlashLightBP
+[2024.03.26-05.34.17:532][135]BlueprintLog: New page: Compile FlashLightBP
+[2024.03.26-05.34.17:567][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.03.26-05.34.51:711][463]BlueprintLog: New page: Compile FlashLightBP
+[2024.03.26-05.34.51:743][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.03.26-05.34.51:751][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.34.51:799][463]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Interactables/FlashLightBP
+[2024.03.26-05.34.51:800][463]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashLightBPCFF077604DC031CDD2F38798D5B43DC7.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/Blueprints/Interactables/FlashLightBP.uasset'
+[2024.03.26-05.34.51:808][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 3.06 sec)
+[2024.03.26-05.34.51:821][463]AssetCheck: New page: Asset Save: FlashLightBP
+[2024.03.26-05.34.51:821][463]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Interactables/FlashLightBP.FlashLightBP
+[2024.03.26-05.36.19:532][241]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/gun/BP_Weapon_Component.BP_Weapon_Component
+[2024.03.26-05.36.19:532][241]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-05.36.19:532][241]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-05.38.49:186][283]BlueprintLog: New page: Compile BP_Weapon_Component
+[2024.03.26-05.38.49:258][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.03.26-05.38.49:265][283]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.38.49:293][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/gun/BP_Weapon_Component" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/gun/BP_Weapon_Component.uasset" SILENT=true
+[2024.03.26-05.38.49:303][283]LogSavePackage: Moving output files for package: /Game/ThirdPerson/gun/BP_Weapon_Component
+[2024.03.26-05.38.49:303][283]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/BP_Weapon_ComponentC1BCE147425EA27437AE4298001FF52A.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/gun/BP_Weapon_Component.uasset'
+[2024.03.26-05.38.49:310][283]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 3.10 sec)
+[2024.03.26-05.38.49:315][283]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2024.03.26-05.38.49:315][283]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/gun/BP_Weapon_Component.BP_Weapon_Component
+[2024.03.26-05.38.55:534][933]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.26-05.38.55:541][933]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.26-05.38.55:543][933]LogWorldPartition: Display: GenerateStreaming started...
+[2024.03.26-05.38.55:543][933]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.03.26-05.38.55:544][933]LogWorldPartition: Display: GetPartitionedActors took 1 ms
+[2024.03.26-05.38.55:544][933]LogWorldPartition: Display: GenerateStreaming took 1 ms
+[2024.03.26-05.38.55:547][933]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.26-05.38.55:548][933]LogPlayLevel: [PlayLevel] Compiling ABP_Manny before play...
+[2024.03.26-05.38.55:618][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.03.26-05.38.55:619][933]LogPlayLevel: PlayLevel: Blueprint regeneration took 72 ms (1 blueprints)
+[2024.03.26-05.38.55:624][933]PIE: New page: PIE session: ThirdPersonMap (26 Mar 2024, 05:38:55)
+[2024.03.26-05.38.55:635][933]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.03.26-05.38.55:635][933]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2024.03.26-05.38.55:636][933]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.03.26-05.38.55:641][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004405s)
+[2024.03.26-05.38.55:641][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004448s)
+[2024.03.26-05.38.55:641][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-05.38.55:642][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-05.38.55:642][933]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.03.26-05.38.55:643][933]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.26-05.38.55:643][933]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.26-05.38.55:643][933]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.03.26-05.38.55:643][933]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.03.26-05.38.55:643][933]LogWorldPartition: Display: WorldPartition initialize took 696 us (total: 227 ms)
+[2024.03.26-05.38.55:644][933]LogPlayLevel: PIE: World Init took: (0.003100s)
+[2024.03.26-05.38.55:661][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.03.26-05.38.55:663][933]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.03.26-05.38.55:664][933]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-05.38.55:664][933]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-05.38.55:664][933]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-05.38.55:664][933]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-05.38.55:664][933]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.26-05.38.55:664][933]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.26-05.38.55:664][933]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.26-05.38.55:664][933]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-05.38.55:664][933]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-05.38.55:664][933]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-05.38.55:664][933]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-05.38.55:666][933]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.26-05.38.55:681][933]LogAudioMixer: Display: Using Audio Hardware Device headset (Realtek USB Audio)
+[2024.03.26-05.38.55:681][933]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-05.38.55:681][933]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-05.38.55:681][933]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-05.38.55:682][933]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.03.26-05.38.55:682][933]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.03.26-05.38.55:683][933]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.03.26-05.38.55:683][933]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.03.26-05.38.55:683][933]LogInit: FAudioDevice initialized with ID 2.
+[2024.03.26-05.38.55:683][933]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2024.03.26-05.38.55:683][933]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.26-05.38.55:705][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-05.38.55:708][933]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.03.26-05.38.55:709][933]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.03.26-05.38.55
+[2024.03.26-05.38.55:712][933]LogWorld: Bringing up level for play took: 0.003844
+[2024.03.26-05.38.55:714][933]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.03.26-05.38.55:752][933]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.03.26-05.38.55:760][933]PIE: Server logged in
+[2024.03.26-05.38.55:764][933]PIE: Play in editor total start time 0.224 seconds.
+[2024.03.26-05.38.55:803][933]LogViewport: Scene viewport resized to 1677x1008, mode Windowed.
+[2024.03.26-05.38.58:693][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-05.38.58:693][252]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.03.26-05.38.58:694][252]LogSlate: Window 'HorrorProject Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.03.26-05.38.58:701][252]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-05.38.58:702][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-05.38.58:702][252]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.03.26-05.38.58:705][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-05.38.58:708][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-05.38.58:729][252]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.26-05.38.58:731][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.26-05.38.58:733][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.26-05.38.58:741][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.03.26-05.38.58:770][253]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.03.26-05.39.14:706][139]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/gun/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.26-05.39.14:706][139]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-05.39.14:706][139]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-05.40.10:844][818]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-05.40.10:844][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-05.40.12:037][914]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-05.40.12:037][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-05.40.12:042][914]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-05.40.12:042][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-05.40.45:318][381]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.03.26-05.40.45:358][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.03.26-05.40.45:372][381]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.40.45:416][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/gun/BP_Pickup_Rifle" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/gun/BP_Pickup_Rifle.uasset" SILENT=true
+[2024.03.26-05.40.45:420][381]LogSavePackage: Moving output files for package: /Game/ThirdPerson/gun/BP_Pickup_Rifle
+[2024.03.26-05.40.45:421][381]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/BP_Pickup_Rifle6FF18B1C46A3EDD7EA7D31A6255766F3.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/gun/BP_Pickup_Rifle.uasset'
+[2024.03.26-05.40.45:429][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 3.16 sec)
+[2024.03.26-05.40.45:437][381]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.26-05.40.45:437][381]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/gun/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.26-05.40.48:048][665]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.26-05.40.48:053][665]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.26-05.40.48:055][665]LogWorldPartition: Display: GenerateStreaming started...
+[2024.03.26-05.40.48:055][665]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.03.26-05.40.48:055][665]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 1 ms)
+[2024.03.26-05.40.48:055][665]LogWorldPartition: Display: GenerateStreaming took 117 us (total: 1 ms)
+[2024.03.26-05.40.48:055][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-05.40.48:055][665]PIE: New page: PIE session: ThirdPersonMap (26 Mar 2024, 05:40:48)
+[2024.03.26-05.40.48:055][665]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.03.26-05.40.48:058][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003211s)
+[2024.03.26-05.40.48:058][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003240s)
+[2024.03.26-05.40.48:058][665]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-05.40.48:059][665]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-05.40.48:059][665]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.03.26-05.40.48:059][665]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.26-05.40.48:059][665]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.26-05.40.48:059][665]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.03.26-05.40.48:060][665]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.03.26-05.40.48:060][665]LogWorldPartition: Display: WorldPartition initialize took 776 us (total: 228 ms)
+[2024.03.26-05.40.48:060][665]LogPlayLevel: PIE: World Init took: (0.001993s)
+[2024.03.26-05.40.48:077][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.03.26-05.40.48:080][665]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.03.26-05.40.48:080][665]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-05.40.48:080][665]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-05.40.48:080][665]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-05.40.48:080][665]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-05.40.48:080][665]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.26-05.40.48:080][665]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.26-05.40.48:080][665]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.26-05.40.48:080][665]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-05.40.48:080][665]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-05.40.48:080][665]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-05.40.48:080][665]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-05.40.48:082][665]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.26-05.40.48:096][665]LogAudioMixer: Display: Using Audio Hardware Device headset (Realtek USB Audio)
+[2024.03.26-05.40.48:096][665]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-05.40.48:097][665]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-05.40.48:097][665]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-05.40.48:097][665]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.03.26-05.40.48:097][665]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.03.26-05.40.48:098][665]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.03.26-05.40.48:098][665]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.03.26-05.40.48:098][665]LogInit: FAudioDevice initialized with ID 3.
+[2024.03.26-05.40.48:098][665]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2024.03.26-05.40.48:098][665]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.26-05.40.48:121][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-05.40.48:121][665]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.03.26-05.40.48:123][665]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.03.26-05.40.48
+[2024.03.26-05.40.48:123][665]LogWorld: Bringing up level for play took: 0.001617
+[2024.03.26-05.40.48:125][665]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.03.26-05.40.48:128][665]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.03.26-05.40.48:131][665]PIE: Server logged in
+[2024.03.26-05.40.48:134][665]PIE: Play in editor total start time 0.082 seconds.
+[2024.03.26-05.40.48:164][665]LogViewport: Scene viewport resized to 1677x1008, mode Windowed.
+[2024.03.26-05.40.50:700][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-05.40.50:701][953]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.03.26-05.40.50:701][953]LogSlate: Window 'HorrorProject Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.03.26-05.40.50:706][953]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-05.40.50:707][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-05.40.50:707][953]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.03.26-05.40.50:708][953]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-05.40.50:712][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-05.40.50:730][953]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-05.40.50:730][953]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.26-05.40.50:730][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.26-05.40.50:731][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.26-05.40.50:738][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.03.26-05.40.50:766][954]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.03.26-05.41.03:373][144]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.03.26-05.41.03:409][144]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.03.26-05.41.03:422][144]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.41.03:465][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/gun/BP_Pickup_Rifle" FILE="../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/gun/BP_Pickup_Rifle.uasset" SILENT=true
+[2024.03.26-05.41.03:468][144]LogSavePackage: Moving output files for package: /Game/ThirdPerson/gun/BP_Pickup_Rifle
+[2024.03.26-05.41.03:469][144]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/BP_Pickup_Rifle243E31F745272D68E035C88710DE3590.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/ThirdPerson/gun/BP_Pickup_Rifle.uasset'
+[2024.03.26-05.41.03:477][144]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 3.21 sec)
+[2024.03.26-05.41.03:484][144]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.26-05.41.03:485][144]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/gun/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.26-05.42.01:864][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.03.26-05.42.01:870][892]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-05.42.01:899][892]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/S5/42BENZZDIZ9AJW4WSEM4AA
+[2024.03.26-05.42.01:900][892]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/42BENZZDIZ9AJW4WSEM4AA71A4705F47AB52D65CCFA59FB2251DB4.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/S5/42BENZZDIZ9AJW4WSEM4AA.uasset'
+[2024.03.26-05.42.01:916][892]LogSavePackage: Moving output files for package: /Game/Blueprints/Flashlight/model/FlashlightTexture
+[2024.03.26-05.42.01:916][892]LogSavePackage: Moving '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Saved/FlashlightTextureB76E094148F1A4A4150244B7EAD91134.tmp' to '../../../../unrealProjects/HorrorProject/BaneOfTheLich/Content/Blueprints/Flashlight/model/FlashlightTexture.uasset'
+[2024.03.26-05.42.01:927][892]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 3.27 sec)
+[2024.03.26-05.42.01:932][892]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.26-05.42.01:932][892]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Blueprints/Flashlight/model/FlashlightTexture.FlashlightTexture
+[2024.03.26-05.42.01:932][892]LogContentValidation: Display: Validating /Game/ThirdPerson/gun/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_50EBF6944DD084E401_1713877159
